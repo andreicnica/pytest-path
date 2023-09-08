@@ -1,5 +1,5 @@
-from coffee.americano import americano
+from coffee.americano.americano import make
 
 
 def test_americano():
-    assert americano.make() == "americano"
+    assert make() == "americano"
