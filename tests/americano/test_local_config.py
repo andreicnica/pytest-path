@@ -1,4 +1,4 @@
-from coffee.americano.local_settings import make_settings
+from coffee.americano.local_config import make_settings
 
 
 def test_make_settings():
